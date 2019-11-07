@@ -1,0 +1,13 @@
+/**
+ * Customize CSS
+ *
+ * @author We Both
+ * @version 1.0
+ *
+ * "You can add your own style below this comment".
+ */
+
+h1.lead-main {
+	font-family: Lota,sans-serif;
+	font-weight: 600;
+}
