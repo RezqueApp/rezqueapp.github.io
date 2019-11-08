@@ -11,3 +11,9 @@ h1.lead-main {
 	font-family: Lota,sans-serif;
 	font-weight: 600;
 }
+.navbar-brand span.beta {
+	font-size: 16px;
+	top: 18px;
+	right: 23px;
+	position: relative;
+}
