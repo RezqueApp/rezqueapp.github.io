@@ -17,3 +17,10 @@ h1.lead-main {
 	right: 23px;
 	position: relative;
 }
+
+@media (min-width: 1024px) {
+	.section-block-feature {
+		padding-top: 5rem;
+		padding-bottom: 2rem;
+	}
+}

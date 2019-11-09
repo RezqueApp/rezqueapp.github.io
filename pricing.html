@@ -6,6 +6,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WXTT56T');</script>
+  <!-- End Google Tag Manager -->
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
 
@@ -38,6 +46,10 @@
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXTT56T"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->  
   <header class="header">
 
     <nav class="navbar navbar-expand-lg">
@@ -129,7 +141,6 @@
                   <li><strong class="color--heading">100</strong> Scheduled Emails</li>
                   <li><strong class="color--heading">Custom</strong> Templates</li>
                   <li><del><strong class="color--heading">Dedicated</strong> Number</del></li>
-                  <li><strong class="color--heading">Branded</strong></li>                  
                 </ul>
               </div> <!-- Pricing Card Body -->
 
@@ -257,9 +268,9 @@
 
             <p>Reach out to sales for larger plans</p>
 
-            <form class="subscribe-form form-inline mt-5">
+            <form class="subscribe-form form-inline mt-5" action="https://hooks.zapier.com/hooks/catch/6043755/o4mjhwa/" method="post">
               <div class="input-group mr-sm-3 mb-2">
-                <input type="email" class="form-control" id="email" placeholder="Email address">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email address">
               </div>
               <button type="submit" class="btn btn-primary btn--has-shadow mb-2">Contact Sales</button>
             </form>
@@ -299,14 +310,14 @@
   <div class="alert-notifications-wrapper">
 
     <div id="subscribe-success-notification" class="alert alert-validation alert-success alert-dismissible fade" role="alert">
-      Thank you for subscribing! Please check your inbox to opt-in.
+      Thanks for reaching out! You will hear from a sales agent soon.
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
     </div> <!-- Subscribe Success -->
 
     <div id="subscribe-error-notification" class="alert alert-validation alert-danger alert-dismissible fade" role="alert">
-      Oh no, error happened! Please check the email address and/or try again.
+      Oh no, there was an error! Please check the email address and/or try again.
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -318,12 +329,6 @@
   <script src="js/vendor/jquery-3.3.1.min.js"></script>
   <script src="js/vendor/popper.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
-
-  <!-- Vendor/Plugins JS -->
-  <script src="js/vendor/jquery.ajaxchimp.min.js"></script>
-
-  <!-- Vendor/Plugins JS Init -->
-  <script src="js/init/wb.ajaxchimp-init.js"></script>
 
   <!-- Fluxo Template JS -->
   <script src="js/min/main-min.js"></script>
