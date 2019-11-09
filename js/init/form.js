@@ -44,11 +44,11 @@ function processForm(e) {
   return false;
 }
 
-var login = document.getElementById('login');
-var signup = document.getElementById('signup');
+var signups = document.getElementsByClassName('signup');
 
-login.addEventListener('click', redirectToForm);
-signup.addEventListener('click', redirectToForm);
+for (i = 0; i < signups.length; i++) {
+  signups[i].addEventListener('click', redirectToForm);
+}
 
 function redirectToForm(e) {
   e.preventDefault();	
