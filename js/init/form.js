@@ -13,12 +13,14 @@ function processForm(e) {
   spinner.classList.add('spinner-grow-sm');
   button.setAttribute('disabled', 'disabled');
 
-  var cid = google_tag_manager['GTM-WXTT56T'].dataLayer.get('clientId');
-  var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
   var formData = new FormData(form);
 
-  formData.append("gcid", cid);
+  if (google_tag_manager) {
+  	var cid = google_tag_manager['GTM-WXTT56T'].dataLayer.get('clientId');
+  	formData.append("gcid", cid);
+  }
+
+  var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
   formData.append("tz", tz);
 
   var xhr = new XMLHttpRequest;
