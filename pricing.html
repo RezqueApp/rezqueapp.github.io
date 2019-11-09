@@ -65,10 +65,10 @@
         <div class="offcanvas-collapse ml-auto" id="navbarsExampleDefault">
           <ul class="navbar-nav">
             <li class="nav-item" data-toggle="hover">
-              <a class="nav-link" href="https://my.rezque.com/users/sign_in/">Login</a>
+              <a class="nav-link" id="login" href="https://my.rezque.com/users/sign_in/">Login</a>
             </li>
             <li class="nav-item nav-item--btn">
-              <a id="buyBtn" class="btn btn-primary btn-sm btn--has-shadow mt-3 mt-lg-0" href="https://my.rezque.com/users/sign_up/">Sign Up</a>
+              <a id="signup" class="btn btn-primary btn-sm btn--has-shadow mt-3 mt-lg-0" href="https://my.rezque.com/users/sign_up/">Sign Up</a>
             </li>
           </ul>
         </div>
@@ -263,16 +263,25 @@
       <div class="container">
         <div class="row row-grid justify-content-center">
 
-          <div class="col-md-8 col-lg-7 col-xl-6 text-center">
+          <div class="col-md-9 col-lg-8 col-xl-7 text-center">
             <h2 class="section__title mb-4">Enterprise Plans</h2>
 
             <p>Reach out to sales for larger plans</p>
 
-            <form class="subscribe-form form-inline mt-5" action="https://hooks.zapier.com/hooks/catch/6043755/o4mjhwa/" method="post">
-              <div class="input-group mr-sm-3 mb-2">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email address">
+            <form class="subscribe-form mt-5" id="pricing-page-sales">
+              <div class="row col-12">
+                <div class="col-lg-7">
+                  <div class="input-group mb-2">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email address" required>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <button type="submit"  id="subscribe-form-submit" class="btn btn-primary btn-block btn--has-shadow mb-2">
+                    <span id="spinner-holder"></span>
+                    <span>Contact Sales</span>
+                  </button>
+                </div>
               </div>
-              <button type="submit" class="btn btn-primary btn--has-shadow mb-2">Contact Sales</button>
             </form>
           </div>
 
@@ -329,6 +338,8 @@
   <script src="js/vendor/jquery-3.3.1.min.js"></script>
   <script src="js/vendor/popper.min.js"></script>
   <script src="js/vendor/bootstrap.min.js"></script>
+
+  <script src="js/init/form.js"></script>
 
   <!-- Fluxo Template JS -->
   <script src="js/min/main-min.js"></script>
