@@ -44,14 +44,14 @@ function processForm(e) {
   return false;
 }
 
-var signups = document.getElementsByClassName('signup');
+// var signups = document.getElementsByClassName('signup');
 
-for (i = 0; i < signups.length; i++) {
-  signups[i].addEventListener('click', redirectToForm);
-}
+// for (i = 0; i < signups.length; i++) {
+//   signups[i].addEventListener('click', redirectToForm);
+// }
 
-function redirectToForm(e) {
-  e.preventDefault();	
-	var elmnt = document.getElementsByClassName('section-subscribe')[0];
-	elmnt.scrollIntoView();
-}
+// function redirectToForm(e) {
+//   e.preventDefault();	
+// 	var elmnt = document.getElementsByClassName('section-subscribe')[0];
+// 	elmnt.scrollIntoView();
+// }
