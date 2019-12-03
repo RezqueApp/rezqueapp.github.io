@@ -15,21 +15,22 @@ function processForm(e) {
 
   var formData = new FormData(form);
 
-  if (google_tag_manager) {
+  if (typeof google_tag_manager !== "undefined") {
   	var cid = google_tag_manager['GTM-WXTT56T'].dataLayer.get('clientId');
-  	formData.append("gcid", cid);
+  	formData.append("GACLIENTID", cid);
   }
 
   var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  formData.append("tz", tz);
+  formData.append("TIMEZONE", tz);
 
   var xhr = new XMLHttpRequest;
-  xhr.open('POST', 'https://hooks.zapier.com/hooks/catch/6043755/o4mjhwa/', true);
+  xhr.open('POST', 'https://rezque.us4.list-manage.com/subscribe/post?u=1e42f067fe11d0ec4d49fc6ad&amp;id=f4ce6eb9d7', true);
   xhr.send(formData);
 
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4) {
-      var response = JSON.parse(xhr.responseText);
+      var response = xhr.responseText;
+      console.log(response);
       if (xhr.status === 200 && response.status === 'success') {
       	success.classList.add('show');
       } else {
