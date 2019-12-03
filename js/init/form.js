@@ -23,24 +23,44 @@ function processForm(e) {
   var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
   formData.append("TIMEZONE", tz);
 
-  var xhr = new XMLHttpRequest;
-  xhr.open('POST', 'https://rezque.us4.list-manage.com/subscribe/post?u=1e42f067fe11d0ec4d49fc6ad&amp;id=f4ce6eb9d7', true);
-  xhr.send(formData);
-
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4) {
-      var response = xhr.responseText;
-      console.log(response);
-      if (xhr.status === 200 && response.status === 'success') {
-      	success.classList.add('show');
-      } else {
-      	error.classList.add('show');
-      }
-		  spinner.classList.remove('spinner-grow');
-		  spinner.classList.remove('spinner-grow-sm');
-		  button.removeAttribute('disabled');
+  $.ajax({
+    url: 'https://rezque.us4.list-manage.com/subscribe/post?u=1e42f067fe11d0ec4d49fc6ad&amp;id=f4ce6eb9d7',
+    type: 'GET',
+    data: formData,
+    processData: false, // compatibility with FormData
+    dataType: 'json',
+    contentType: 'application/json',
+    error: function (err) {
+      console.log(err)
+    },
+    success: function (data) {
+      console.log(data);
+      // if (data['result'] != "success") {
+      //   success.classList.add('show');
+      // } else {
+      //   error.classList.add('show');
+      // }
     }
-  }
+  });
+
+  // var xhr = new XMLHttpRequest;
+  // xhr.open('POST', 'https://rezque.us4.list-manage.com/subscribe/post?u=1e42f067fe11d0ec4d49fc6ad&amp;id=f4ce6eb9d7', true);
+  // xhr.send(formData);
+
+  // xhr.onreadystatechange = function() {
+  //   if (xhr.readyState === 4) {
+  //     var response = xhr.responseText;
+  //     console.log(response);
+  //     if (xhr.status === 200 && response.status === 'success') {
+  //     	success.classList.add('show');
+  //     } else {
+  //     	error.classList.add('show');
+  //     }
+		//   spinner.classList.remove('spinner-grow');
+		//   spinner.classList.remove('spinner-grow-sm');
+		//   button.removeAttribute('disabled');
+  //   }
+  // }
 
   return false;
 }
