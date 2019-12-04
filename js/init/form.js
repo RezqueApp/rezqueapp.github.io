@@ -13,26 +13,26 @@ function processForm(e) {
   spinner.classList.add('spinner-grow-sm');
   button.setAttribute('disabled', 'disabled');
 
-  var formData = new FormData(form);
+  var formData = $('.subscribe-form').serializeArray(); 
 
   if (typeof google_tag_manager !== "undefined") {
   	var cid = google_tag_manager['GTM-WXTT56T'].dataLayer.get('clientId');
-  	formData.append("GACLIENTID", cid);
+    formData.push({name: 'GACLIENTID', value: cid});
   }
 
   var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  formData.append("TIMEZONE", tz);
+  formData.push({name: 'TIMEZONE', value: tz});
 
   $.ajax({
     // appended '-json' to url and '&c=?' to work with jsonp
     url: 'https://rezque.us4.list-manage.com/subscribe/post-json?u=1e42f067fe11d0ec4d49fc6ad&amp;id=f4ce6eb9d7&c=?',
     type: 'GET',
-    data: formData,
-    processData: false, // compatibility with FormData
+    data: $.param(formData),
     dataType: 'jsonp',
     success: function (data) {
       console.log(data);
       if (data['result'] == 'success') {
+        $('#subscribe-success-notification').append(data['msg']);
         success.classList.add('show');
       } else {
         $('#subscribe-error-notification').append(data['msg']);

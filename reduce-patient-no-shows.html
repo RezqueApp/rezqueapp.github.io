@@ -173,7 +173,6 @@
             <!-- <h2 class="section__title mb-4">Enterprise Plans</h2> -->
             <h2 class="section__title mb-4">Subscribe</h2>
 
-            <!-- <p>Reach out to sales for larger plans</p> -->
             <p>Stay up to date on best practices for communicating with your customers</p>
 
             <form class="subscribe-form mt-5" id="blog-subscribe">
@@ -243,6 +242,23 @@
     </div>
   </footer> <!-- END Footer -->
 
+  <div class="alert-notifications-wrapper">
+
+    <div id="subscribe-success-notification" class="alert alert-validation alert-success alert-dismissible fade" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div> <!-- Subscribe Success -->
+
+    <div id="subscribe-error-notification" class="alert alert-validation alert-danger alert-dismissible fade" role="alert">
+      Oh no, there was an error! Please check the email address and/or try again.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div> <!-- Subscribe Error -->
+
+  </div> <!-- END Alert Notifications Wrapper -->
+  
   <!-- Global Required JS -->
   <script src="js/vendor/jquery-3.3.1.min.js"></script>
   <script src="js/vendor/popper.min.js"></script>
