@@ -177,9 +177,15 @@
 
                   <form class="subscribe-form mt-3">
                     <div class="input-group mb-2">
-                      <input type="email" class="form-control" id="email" placeholder="Email address">
+ 
+                      <input type="email" class="form-control" id="email" name="EMAIL" placeholder="Email address" required>
+
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                    <button type="submit"  id="subscribe-form-submit" class="btn btn-primary btn-block btn--has-shadow w-100">
+                      <span id="spinner-holder"></span>
+                      <span>Subscribe</span>
+                    </button>
+
                   </form>
                 </section> <!-- Widget Section -->
 
