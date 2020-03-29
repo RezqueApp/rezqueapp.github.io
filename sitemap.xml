@@ -65,5 +65,10 @@
 		<loc>https://rezque.com/tos</loc>
 		<lastmod>2020-03-10</lastmod>
 		<changefreq>monthly</changefreq>
-	</url>	
+	</url>
+	<url>
+		<loc>https://rezque.com/automated-sms-payment-reminders</loc>
+		<lastmod>2020-03-29</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>		
 </urlset> 
