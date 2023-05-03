@@ -10,6 +10,22 @@
   
   	
 	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-nail-salon/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-sales/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://rezque.com/blog/text-message-bookings-spa/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -50,7 +66,7 @@
   
   	
 	  <url>
-	    <loc>https://rezque.com/tags/bookings/</loc>
+	    <loc>https://rezque.com/categories/bookings/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -58,7 +74,7 @@
   
   	
 	  <url>
-	    <loc>https://rezque.com/categories/bookings/</loc>
+	    <loc>https://rezque.com/tags/bookings/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -114,7 +130,7 @@
   
   	
 	  <url>
-	    <loc>https://rezque.com/categories/reminders/</loc>
+	    <loc>https://rezque.com/tags/reminders/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -122,7 +138,7 @@
   
   	
 	  <url>
-	    <loc>https://rezque.com/tags/reminders/</loc>
+	    <loc>https://rezque.com/categories/reminders/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
