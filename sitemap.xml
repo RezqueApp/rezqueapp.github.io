@@ -1,111 +1,251 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://rezque.com/</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/pricing</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/text-to-book</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/google-calendar-text-reminders</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/confirming-appointments</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/reduce-patient-no-shows</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/unique-calendars</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/text-message-vs-email-marketing</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/blog</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/business-review-automation</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/text-message-marketing-automation</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/text-message-marketing-best-practices</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/tos</loc>
-		<lastmod>2020-03-10</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-	<url>
-		<loc>https://rezque.com/automated-sms-payment-reminders</loc>
-		<lastmod>2020-03-29</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>
-
-	<url>
-		<loc>https://rezque.com/small-business-owners-improve-booking-process-rezque</loc>
-		<lastmod>2023-04-03</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>	
-		<url>
-		<loc>https://rezque.com/streamline-healthcare-practice-text-message-bookings-rezque</loc>
-		<lastmod>2023-04-03</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>	
-		<url>
-		<loc>https://rezque.com/text-message-bookings-rezque-busy-professionals</loc>
-		<lastmod>2023-04-03</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>	
-		<url>
-		<loc>https://rezque.com/text-message-bookings-rezque-elderly-disabled</loc>
-		<lastmod>2023-04-03</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>	
-		<url>
-		<loc>https://rezque.com/text-message-bookings-rezque-travelers</loc>
-		<lastmod>2023-04-03</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>	
-		<url>
-		<loc>https://rezque.com/text-message-bookings</loc>
-		<lastmod>2023-04-03</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>	
-		<url>
-		<loc>https://rezque.com/younger-generation-prefers-text-message-bookings-rezque</loc>
-		<lastmod>2023-04-03</lastmod>
-		<changefreq>monthly</changefreq>
-	</url>	
-
-</urlset> 
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/reduce-patient-no-shows/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/tags/bookings/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/categories/bookings/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/business-review-automation/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/categories/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/google-calendar-text-reminders/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/confirming-appointments/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/tags/payment/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/pricing/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/privacy-policy/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/tags/reminders/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/categories/reminders/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/tags/sms/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/sms-payment-reminders/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/tags/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/tos/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/tags/text-message/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-professionals/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-healthcare/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-lawyer/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-small-business/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-travelers/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-young-generation/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-bookings-elderly-disabled/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-marketing-automation/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-marketing-best-practices/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/text-message-vs-email-marketing/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://rezque.com/blog/unique-calendars/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+</urlset>

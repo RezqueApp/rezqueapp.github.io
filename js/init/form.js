@@ -25,7 +25,8 @@ function processForm(e) {
 
   $.ajax({
     // appended '-json' to url and '&c=?' to work with jsonp
-    url: 'https://rezque.us4.list-manage.com/subscribe/post-json?u=1e42f067fe11d0ec4d49fc6ad&amp;id=f4ce6eb9d7&c=?',
+    // url: 'https://rezque.us4.list-manage.com/subscribe/post-json?u=1e42f067fe11d0ec4d49fc6ad&amp;id=f4ce6eb9d7&c=?',
+    url: 'https://rezque.us21.list-manage.com/subscribe/post-json?u=7859439a72e3df86bb2fe9cae&id=111549df23&c=?',
     type: 'GET',
     data: $.param(formData),
     dataType: 'jsonp',
@@ -34,6 +35,9 @@ function processForm(e) {
       if (data['result'] == 'success') {
         $('#subscribe-success-notification').append(data['msg']);
         success.classList.add('show');
+        spinner.classList.remove('spinner-grow');
+        spinner.classList.remove('spinner-grow-sm');
+        form.querySelector('input[name="EMAIL"]').value = "";
       } else {
         $('#subscribe-error-notification').append(data['msg']);
         error.classList.add('show');

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>text message on Rezque | Text Message Bookings &amp; Reminders</title>
+    <link>https://rezque.com/tags/text-message/</link>
+    <description>Recent content in text message on Rezque | Text Message Bookings &amp; Reminders</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://rezque.com/tags/text-message/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Text Message Bookings</title>
+      <link>https://rezque.com/blog/text-message-bookings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/blog/text-message-bookings/</guid>
+      <description>You work hard to show up for work every day and when a client doesn&#39;t show up for their scheduled appointment, it means lost revenue and idle time for your employees.</description>
+    </item>
+    
+  </channel>
+</rss>
