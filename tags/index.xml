@@ -11,11 +11,47 @@
     
     
     <item>
+      <title>barber</title>
+      <link>https://rezque.com/tags/barber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/tags/barber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>bookings</title>
       <link>https://rezque.com/tags/bookings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rezque.com/tags/bookings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contractor</title>
+      <link>https://rezque.com/tags/contractor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/tags/contractor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dentist</title>
+      <link>https://rezque.com/tags/dentist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/tags/dentist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hair salon</title>
+      <link>https://rezque.com/tags/hair-salon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/tags/hair-salon/</guid>
       <description></description>
     </item>
     
@@ -52,6 +88,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rezque.com/tags/text-message/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text message bookings</title>
+      <link>https://rezque.com/tags/text-message-bookings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/tags/text-message-bookings/</guid>
       <description></description>
     </item>
     

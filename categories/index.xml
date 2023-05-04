@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Barbers</title>
+      <link>https://rezque.com/categories/barbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/categories/barbers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>bookings</title>
       <link>https://rezque.com/categories/bookings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,11 +29,47 @@
     </item>
     
     <item>
+      <title>Contractors</title>
+      <link>https://rezque.com/categories/contractors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/categories/contractors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dentists</title>
+      <link>https://rezque.com/categories/dentists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/categories/dentists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>reminders</title>
       <link>https://rezque.com/categories/reminders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rezque.com/categories/reminders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salons</title>
+      <link>https://rezque.com/categories/salons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/categories/salons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Message Bookings</title>
+      <link>https://rezque.com/categories/text-message-bookings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rezque.com/categories/text-message-bookings/</guid>
       <description></description>
     </item>
     
