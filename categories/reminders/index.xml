@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>reminders on Rezque | Text Message Bookings &amp; Reminders</title>
@@ -6,27 +6,20 @@
     <description>Recent content in reminders on Rezque | Text Message Bookings &amp; Reminders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://rezque.com/categories/reminders/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://rezque.com/categories/reminders/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business Review Automation</title>
       <link>https://rezque.com/blog/business-review-automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/blog/business-review-automation/</guid>
       <description>Getting Consistent Five Star Reviews For Your Business It&#39;s getting harder to compete in today&#39;s marketplace. One bad review amidst just a handful of total reviews can spell disaster for your business.</description>
     </item>
-    
     <item>
       <title>SMS Payment Reminders</title>
       <link>https://rezque.com/blog/sms-payment-reminders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/blog/sms-payment-reminders/</guid>
       <description>It&#39;s hard to keep track of all the payments that need to made. It&#39;s even more difficult to track the payments that haven&#39;t been made by a business. From lawyers to accountants, the need to collect payments on a timely business is crucial to keeping the lights on and making sure that payroll is met.</description>
     </item>
-    
   </channel>
 </rss>

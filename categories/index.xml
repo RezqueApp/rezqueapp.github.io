@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rezque | Text Message Bookings &amp; Reminders</title>
@@ -6,72 +6,55 @@
     <description>Recent content in Categories on Rezque | Text Message Bookings &amp; Reminders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://rezque.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://rezque.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Barbers</title>
       <link>https://rezque.com/categories/barbers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/categories/barbers/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>bookings</title>
       <link>https://rezque.com/categories/bookings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/categories/bookings/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Contractors</title>
       <link>https://rezque.com/categories/contractors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/categories/contractors/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Dentists</title>
       <link>https://rezque.com/categories/dentists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/categories/dentists/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>reminders</title>
       <link>https://rezque.com/categories/reminders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/categories/reminders/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Salons</title>
       <link>https://rezque.com/categories/salons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/categories/salons/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Text Message Bookings</title>
       <link>https://rezque.com/categories/text-message-bookings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/categories/text-message-bookings/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

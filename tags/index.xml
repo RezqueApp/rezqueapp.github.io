@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rezque | Text Message Bookings &amp; Reminders</title>
@@ -6,99 +6,76 @@
     <description>Recent content in Tags on Rezque | Text Message Bookings &amp; Reminders</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://rezque.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://rezque.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>barber</title>
       <link>https://rezque.com/tags/barber/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/barber/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>bookings</title>
       <link>https://rezque.com/tags/bookings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/bookings/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>contractor</title>
       <link>https://rezque.com/tags/contractor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/contractor/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>dentist</title>
       <link>https://rezque.com/tags/dentist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/dentist/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>hair salon</title>
       <link>https://rezque.com/tags/hair-salon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/hair-salon/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>payment</title>
       <link>https://rezque.com/tags/payment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/payment/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>reminders</title>
       <link>https://rezque.com/tags/reminders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/reminders/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>sms</title>
       <link>https://rezque.com/tags/sms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/sms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>text message</title>
       <link>https://rezque.com/tags/text-message/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/text-message/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>text message bookings</title>
       <link>https://rezque.com/tags/text-message-bookings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rezque.com/tags/text-message-bookings/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
