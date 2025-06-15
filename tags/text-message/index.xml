@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>text message on Rezque | Text Message Bookings &amp; Reminders</title>
+    <title>Text Message on Rezque | Text Message Bookings &amp; Reminders</title>
     <link>https://rezque.com/tags/text-message/</link>
-    <description>Recent content in text message on Rezque | Text Message Bookings &amp; Reminders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Text Message on Rezque | Text Message Bookings &amp; Reminders</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://rezque.com/tags/text-message/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <link>https://rezque.com/blog/text-message-bookings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rezque.com/blog/text-message-bookings/</guid>
-      <description>You work hard to show up for work every day and when a client doesn&#39;t show up for their scheduled appointment, it means lost revenue and idle time for your employees.</description>
+      <description>&lt;p&gt;&lt;span class=&#34;text-dropcap&#34;&gt;Y&lt;/span&gt;ou work hard to show up for work every day and when a client doesn&#39;t show up for their scheduled appointment, it means lost revenue and idle time for your employees. So what&#39;s a busy business owner to do to fill the gaps to turn a profit? Get a system in place to determine if an appointment intends on showing up like a &lt;a href=&#34;https://rezque.com/blog/google-calendar-text-reminders&#34;&gt;google calendar text message appointment reminder&lt;/a&gt; and offer them an easy solution to reschedule. And for those last minute cancellations, you can send deals to customers to fill those vacant slots.&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

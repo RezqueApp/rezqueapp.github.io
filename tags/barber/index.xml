@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>barber on Rezque | Text Message Bookings &amp; Reminders</title>
+    <title>Barber on Rezque | Text Message Bookings &amp; Reminders</title>
     <link>https://rezque.com/tags/barber/</link>
-    <description>Recent content in barber on Rezque | Text Message Bookings &amp; Reminders</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Barber on Rezque | Text Message Bookings &amp; Reminders</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://rezque.com/tags/barber/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <link>https://rezque.com/blog/text-message-booking-barber/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rezque.com/blog/text-message-booking-barber/</guid>
-      <description>Are you tired of the constant back-and-forth of scheduling appointments for your barber shop? Do you want to provide your customers with a more convenient way to book their appointments? Look no further than a text message booking service like Rezque.</description>
+      <description>&lt;p&gt;&lt;span class=&#34;text-dropcap&#34;&gt;A&lt;/span&gt;re you tired of the constant back-and-forth of scheduling appointments for your barber shop? Do you want to provide your customers with a more convenient way to book their appointments? Look no further than a text message booking service like Rezque.com.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
